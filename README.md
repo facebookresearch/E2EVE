@@ -83,10 +83,10 @@ Example config files for training the source/masked-source image, or driver imag
 ## Paper
 If you find this repository useful, please consider citing:
 ```
-@InProceedings{Brown22,
+@InProceedings{Brown2022E2EVE,
   author       = "Andrew Brown and Cheng-Yang Fu and Omkar Parkhi and Tamara L. Berg and Andrea Vedaldi",
   title        = "End-to-End Visual Editing with a Generatively Pre-Trained Artist",
-  booktitle    = "European Conference on Computer Vision (ECCV), 2022.",
+  booktitle    = "European Conference on Computer Vision (ECCV)",
   year         = "2022",
 }
 ```
