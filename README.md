@@ -27,6 +27,8 @@ This repository contains the code for:
   - <em>Random free form edits</em>, where the model learns to edit randomly drawn regions in a source image
 - Pre-training the visual tokenizers (<em>i.e.</em> E<sub>1</sub>,D<sub>1</sub> and E<sub>2</sub>,D<sub>2</sub> in the Figure above)
 
+The majority of E2EVE is licensed under CC-BY-NC, however portions of the project are available under separate license terms: taming-transformers is licensed under MIT license.
+
  
 ## Setup
 
