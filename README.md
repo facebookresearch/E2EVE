@@ -41,6 +41,13 @@ We provide a demo for using the E2EVE model trained on LSUN Bedrooms in an IPyth
 1) download the (i) meta data (see above), and (ii) LSUN Bedroom weights using ```./utils/download_LSUN_weights.sh```
 2) follow the notebook ```demo.ipynb```. This will generate the examples shown below:
 
+<div align="center">
+  
+| E2EVE generated images in demo | 
+| ------------------------- |
+| <img src="https://user-images.githubusercontent.com/44160842/202865026-6aeebe99-7c95-4f0a-a365-606fb13f10fb.jpg" width="800" /> |
+  
+</div>
 
 ## Training the Visual Generator
 Example config files for training on FFHQ with <em>block edits</em> or <em>random free form edits</em> are found in ```configs/FFHQ/train_block_edit.json``` and ```configs/FFHQ/train_random_mask.json```, respectively. 
