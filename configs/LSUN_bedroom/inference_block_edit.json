@@ -13,10 +13,10 @@
       "base_learning_rate": 4.5e-06,
       "target": "E2EVE.model.E2EVE_model.Cond_GPT",
       "params": {
-        
+        "non_paired_validation":false,
         "log_validation_images":true,
         "number_of_conditions": 1,
-        "ckpt_path": null,
+        "ckpt_path": "../weights/LSUN_Bedroom/E2EVE_LSUN_Bedroom_transformer.pth",
         "sample_top_k":null,
         "sample_top_p":0.9,
 
@@ -37,7 +37,7 @@
           "params": {
             "embed_dim": 256,
             "n_embed": 1024,
-            "ckpt_path": "path_to_souce_image_tokenizer",
+            "ckpt_path": "../weights/LSUN_Bedroom/LSUN_VQGAN_EdiBERT.ckpt",
             "ddconfig": {
               "double_z": false,
               "z_channels": 256,
@@ -60,7 +60,7 @@
           "params": {
             "embed_dim": 256,
             "n_embed": 1024,
-            "ckpt_path":  "path_to_driver_image_tokenizer",
+            "ckpt_path":  "../weights/LSUN_Bedroom/LSUN_VQGAN_EdiBERT.ckpt",
             "ddconfig": {
               "double_z": false,
               "z_channels": 256,
@@ -83,7 +83,7 @@
           "params": {
             "embed_dim": 256,
             "n_embed": 1024,
-            "ckpt_path":  "path_to_souce_image_tokenizer",
+            "ckpt_path":  "../weights/LSUN_Bedroom/LSUN_VQGAN_EdiBERT.ckpt",
             "ddconfig": {
               "double_z": false,
               "z_channels": 256,

@@ -117,23 +117,23 @@
             "alpha_min":0.5,
             "alpha_max":0.7,
             "pos_augment":true,
-            "image_list":"../E2EVE_meta/FFHQ_meta/FFHQ_train_image_list.txt",
-            "path_to_images":"../datasets/FFHQ_128x128/"
+            "image_list":"../E2EVE_meta/LSUN_meta/LSUN_bed_train_image_list.txt",
+            "path_to_images":"../datasets/LSUN/"
           }
         },
       "validation": {
         "target": "E2EVE.data.E2EVE_data.E2EVE_val_dataset",
         "params": {
-          "path_to_images":"../datasets/FFHQ_128x128/",
-          "validation_dataset_meta":"../E2EVE_meta/FFHQ_meta/validation_dataset_construction.pk",
+          "path_to_images":"../datasets/LSUN/",
+          "validation_dataset_meta":"../E2EVE_meta/LSUN_meta/LSUN_bed_validation_dataset_construction.pk",
           "non_paired_validation": true,
           "non_paired_validate_every_n_epoch": 3,
           "filter_by_visual_cue":true,
           "num_val_samples_to_keep":2,
           "num_validation_samples":2,
-          "non_paired_val_inception_features_path":"../E2EVE_meta/FFHQ_meta/ffhq_inception_feats.pk",
-          "non_paired_val_patch_inception_features_path":"../E2EVE_meta/FFHQ_meta/ffhq_inception_feats_patches.pk",
-          "non_paired_val_retrieval_dict_path": "../E2EVE_meta/FFHQ_meta/retrieval_dict.pk"
+          "non_paired_val_inception_features_path":"../E2EVE_meta/LSUN_meta/LSUN_bed_inception_feats.pk.pk",
+          "non_paired_val_patch_inception_features_path":"../E2EVE_meta/LSUN_meta/LSUN_bed_inception_feats_patches.pk.pk",
+          "non_paired_val_retrieval_dict_path": "../E2EVE_meta/LSUN_meta/LSUN_bed_retrieval_dict.pk.pk"
 
         }
       }
